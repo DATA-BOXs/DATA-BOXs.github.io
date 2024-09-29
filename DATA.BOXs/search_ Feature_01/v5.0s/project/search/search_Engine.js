@@ -4,7 +4,7 @@ import { data3 } from '../data_base/data3.js';
 import { testdata1 } from '../data_base/testdata1.js';
 
 // すべてのデータを一つの配列にまとめる
-const data = [...data1, ...data2, ...data3];
+const data = [...data1, ...data2, ...data3, ...testdata1,];
 
 // 検索ボタンのクリックイベントリスナー
 document.getElementById('searchBtn').addEventListener('click', () => {
