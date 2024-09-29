@@ -1,12 +1,10 @@
 import { data1 } from '../data_base/data1.js';
 import { data2 } from '../data_base/data2.js';
 import { data3 } from '../data_base/data3.js';
-import { data4 } from '../data_base/data4.js';
-import { data5 } from '../data_base/data5.js';
-import { testdata1 } from '../data_base/testdata1.js';// テスト用
+import { testdata1 } from '../data_base/.testdata1.js';// テスト用
 
 // すべてのデータを一つの配列にまとめる
-const data = [...data1, ...data2, ...data3,  ...data4,  ...data5, ...testdata1,];
+const data = [...data1, ...data2, ...data3,  ...testdata1,];
 
 // 検索ボタンのクリックイベントリスナー
 document.getElementById('searchBtn').addEventListener('click', () => {
