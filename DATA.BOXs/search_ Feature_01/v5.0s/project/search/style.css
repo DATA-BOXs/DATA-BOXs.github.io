@@ -1,0 +1,74 @@
+/* グローバルスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+}
+
+/* コンテナ */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* 見出し */
+h1 {
+    font-size: 2.5em;
+    color: #ff6347;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* 入力フィールド */
+#searchInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ff6347;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 検索ボタン */
+#searchBtn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background: #ff6347;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#searchBtn:hover {
+    background: #e53e40;
+}
+
+/* 検索結果 */
+.results {
+    margin-top: 20px;
+}
+
+.results ul {
+    list-style: none;
+    padding: 0;
+}
+
+.results li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
