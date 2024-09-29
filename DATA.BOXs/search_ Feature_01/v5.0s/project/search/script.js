@@ -1,4 +1,4 @@
-// script.js
+
 import { data1 } from '../data_base/data1.js';
 import { data2 } from '../data_base/data2.js';
 import { data3 } from '../data_base/data3.js';
