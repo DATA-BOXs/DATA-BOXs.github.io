@@ -1,7 +1,8 @@
+//img
 export const data1 = [
-    { title: 'JavaScriptの基本', description: 'JavaScriptの基本的な使い方について学びます。', link: 'https://example.com/javascript' },
-    { title: 'HTMLの基礎', description: 'HTMLの基本を理解し、ウェブページを作成します。', link: 'https://example.com/html' },
-    { title: 'CSSのスタイリング', description: 'CSSを使ってウェブページのデザインを改善します。', link: 'https://example.com/css' },
-    { title: 'test', description: 'test', link: 'https://example.com/css' },
-    { title: 'APIの使い方', description: 'APIを使って外部データを取得する方法を学びます。', link: 'https://example.com/api' }
+    { title: '立ち絵さたえっくすさん', description: 'よくわからん立ち絵です d1', link: 'https://sites.google.com/view/databoxs/%E3%83%A6%E3%83%BC%E3%82%B6/dbs53735/d1' },
+    { title: 'それっぽい背景', description: 'あーこれだってやつd4', link: 'https://sites.google.com/view/databoxs/%E3%83%A6%E3%83%BC%E3%82%B6/dbs53735/d4' },
+    { title: 'グラデーション(T)', description: 'グラデーションの縦Verd6', link: 'https://sites.google.com/view/databoxs/%E3%83%A6%E3%83%BC%E3%82%B6/dbs53735/d6' },
+    { title: 'グラデーション(Y)', description: 'グラデーションの横Verd7', link: 'https://sites.google.com/view/databoxs/%E3%83%A6%E3%83%BC%E3%82%B6/dbs53735/d7' },
+    { title: 'A', description: 'A', link: 'https://example.com/api' }
 ];
