@@ -44,7 +44,12 @@ function displayResults(results) {
 
         results.forEach(result => {
             const li = document.createElement('li');
-            li.innerHTML = `<strong><a href="${result.link}" target="_blank">${result.title}</a></strong><br>${result.description}`;
+            li.innerHTML = `
+                <strong><a href="${result.link}" target="_blank">${result.title}</a></strong><br>
+                ${result.description}<br>
+                <small>${result.additionalText}</small><br>
+                <img src="${result.imageUrl}" alt="${result.title}" style="width:50px; height:auto;">
+            `;
             ul.appendChild(li);
         });
 
@@ -53,3 +58,4 @@ function displayResults(results) {
         resultsSection.innerHTML = '<p>検索結果が見つかりませんでした。</p>';
     }
 }
+
