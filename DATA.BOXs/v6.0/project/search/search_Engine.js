@@ -25,10 +25,12 @@ document.getElementById('searchBtn').addEventListener('click', () => {
 
 // 検索関数
 function search(query) {
+    console.log('検索クエリ:', query); // デバッグ用: クエリを確認
     const results = data.filter(item => 
         item.title.toLowerCase().includes(query) || 
         item.description.toLowerCase().includes(query)
     );
+    console.log('検索結果:', results); // デバッグ用: 結果を確認
     displayResults(results);
 }
 
@@ -42,8 +44,7 @@ function displayResults(results) {
 
         results.forEach(result => {
             const li = document.createElement('li');
-            li.innerHTML = `<strong>${result.title}</strong><br>${result.description}`;
-            li.onclick = () => window.location.href = result.link; // リンクに飛ぶ
+            li.innerHTML = `<strong><a href="${result.link}" target="_blank">${result.title}</a></strong><br>${result.description}`;
             ul.appendChild(li);
         });
 
