@@ -1,14 +1,15 @@
 //v2,0
 //import { data1 } from '../data_base/data/data1.js';
-//import { data2 } from '../data_base/data/data2.js'; test
+//import { data2 } from '../data_base/data/data2.js'; test 
 //import { data3 } from '../data_base/data/data3.js';
 
 import { html_data } from '../data_base/DATABOXs/html_data.js';
 import { img_data } from '../data_base/DATABOXs/img_data.js';
 import { video_data } from '../data_base/DATABOXs/video_data.js';
+import { info_data } from '../data_base/DATABOXs/info_data.js';
 
 // すべてのデータを一つの配列にまとめる
-const data = [...html_data, ...img_data, ...video_data];
+const data = [...html_data, ...img_data,  ...info_data, ...video_data];
 
 //const data = [...data1, ...data2, ...data3]; test
 
