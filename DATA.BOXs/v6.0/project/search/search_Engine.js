@@ -13,6 +13,16 @@ const data = [...html_data, ...img_data,  ...info_data, ...video_data];
 
 //const data = [...data1, ...data2, ...data3]; test
 
+// 検索ボタンのクリックイベントリスナー
+document.getElementById('searchBtn').addEventListener('click', () => {
+    const query = document.getElementById('searchInput').value.toLowerCase();
+    if (query) {
+        search(query);
+    } else {
+        alert('検索キーワードを入力してください。');
+    }
+});
+
 
 
 // 検索関数
