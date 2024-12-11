@@ -7,6 +7,13 @@ export const html_data = [
         additionalText: 'HTMLsaucecode',
         imageUrl: 'https://DATA-BOXs.github.io/DATA/HTMLlog.png'
     },
+        {
+        title: 'DirectX エンドユーザーランタイム Web インストーラ',
+        description: 'パフォーマンスを向上させるAPI',
+        link: 'dfretgy.html',
+        additionalText: 'DirectX',
+        imageUrl: 'https://DATA-BOXs.github.io/DATA/HTMLlog.png'
+    },
     {
         title: 'redirect',
         description: 'サイトの更新などに使用できます',
